@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/buildx/util/cobrautil/completion"
-	"github.com/docker/buildx/util/desktop"
+	"github.com/joshuakb2/buildx/util/cobrautil/completion"
+	"github.com/joshuakb2/buildx/util/desktop"
 	"github.com/docker/cli/cli/command"
 	"github.com/pkg/browser"
 	"github.com/pkg/errors"

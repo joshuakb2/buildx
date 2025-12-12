@@ -64,7 +64,7 @@ eager_beaver
 
 Specifies the configuration file for the BuildKit daemon to use. The
 configuration can be overridden by [`--buildkitd-flags`](#buildkitd-flags).
-See an [example BuildKit daemon configuration file](https://github.com/moby/buildkit/blob/master/docs/buildkitd.toml.md).
+See an [example BuildKit daemon configuration file](https://github.com/joshuakb2/buildkit/blob/master/docs/buildkitd.toml.md).
 
 If you don't specify a configuration file, Buildx looks for one by default in:
 

@@ -4,10 +4,10 @@ import (
 	"context"
 	"io"
 
-	"github.com/docker/buildx/util/cobrautil/completion"
+	"github.com/joshuakb2/buildx/util/cobrautil/completion"
 	"github.com/docker/cli/cli/command"
 	"github.com/hashicorp/go-multierror"
-	controlapi "github.com/moby/buildkit/api/services/control"
+	controlapi "github.com/joshuakb2/buildkit/api/services/control"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"golang.org/x/sync/errgroup"

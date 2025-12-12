@@ -12,7 +12,7 @@ import (
 
 	"github.com/Masterminds/semver/v3"
 	"github.com/containerd/continuity/fs/fstest"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	"github.com/stretchr/testify/require"
 )
 

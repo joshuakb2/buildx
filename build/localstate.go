@@ -3,10 +3,10 @@ package build
 import (
 	"path/filepath"
 
-	"github.com/docker/buildx/builder"
-	"github.com/docker/buildx/localstate"
-	"github.com/docker/buildx/util/confutil"
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildx/builder"
+	"github.com/joshuakb2/buildx/localstate"
+	"github.com/joshuakb2/buildx/util/confutil"
+	"github.com/joshuakb2/buildkit/client"
 )
 
 func saveLocalState(so *client.SolveOpt, target string, opts Options, node builder.Node, cfg *confutil.Config) error {

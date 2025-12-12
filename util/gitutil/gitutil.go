@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/buildx/util/osutil"
+	"github.com/joshuakb2/buildx/util/osutil"
 	"github.com/pkg/errors"
 )
 

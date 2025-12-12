@@ -3,9 +3,9 @@ package commands
 import (
 	"context"
 
-	"github.com/docker/buildx/builder"
-	"github.com/docker/buildx/util/cobrautil/completion"
-	"github.com/docker/buildx/util/imagetools"
+	"github.com/joshuakb2/buildx/builder"
+	"github.com/joshuakb2/buildx/util/cobrautil/completion"
+	"github.com/joshuakb2/buildx/util/imagetools"
 	"github.com/docker/cli-docs-tool/annotation"
 	"github.com/docker/cli/cli"
 	"github.com/docker/cli/cli/command"

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/docker/buildx/build"
-	"github.com/docker/buildx/util/ioset"
+	"github.com/joshuakb2/buildx/build"
+	"github.com/joshuakb2/buildx/util/ioset"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

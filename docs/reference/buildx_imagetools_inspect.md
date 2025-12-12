@@ -355,7 +355,7 @@ $ docker buildx imagetools inspect moby/buildkit:master --format "{{json .Manife
 }
 ```
 
-The following command provides [SLSA](https://github.com/moby/buildkit/blob/master/docs/attestations/slsa-provenance.md)
+The following command provides [SLSA](https://github.com/joshuakb2/buildkit/blob/master/docs/attestations/slsa-provenance.md)
 JSON output:
 
 ```console
@@ -416,7 +416,7 @@ $ docker buildx imagetools inspect crazymax/buildkit:attest --format "{{json .Pr
 }
 ```
 
-The following command provides [SBOM](https://github.com/moby/buildkit/blob/master/docs/attestations/sbom.md)
+The following command provides [SBOM](https://github.com/joshuakb2/buildkit/blob/master/docs/attestations/sbom.md)
 JSON output:
 
 ```console

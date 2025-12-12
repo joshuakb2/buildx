@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/docker/buildx/store"
-	"github.com/docker/buildx/util/confutil"
-	"github.com/docker/buildx/util/dockerutil"
-	"github.com/docker/buildx/util/imagetools"
-	"github.com/docker/buildx/util/resolver"
+	"github.com/joshuakb2/buildx/store"
+	"github.com/joshuakb2/buildx/util/confutil"
+	"github.com/joshuakb2/buildx/util/dockerutil"
+	"github.com/joshuakb2/buildx/util/imagetools"
+	"github.com/joshuakb2/buildx/util/resolver"
 	"github.com/docker/cli/cli/command"
-	buildkitdconfig "github.com/moby/buildkit/cmd/buildkitd/config"
+	buildkitdconfig "github.com/joshuakb2/buildkit/cmd/buildkitd/config"
 	"github.com/pkg/errors"
 )
 

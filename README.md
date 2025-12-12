@@ -1,13 +1,13 @@
 # Buildx
 
-[![GitHub release](https://img.shields.io/github/release/docker/buildx.svg?style=flat-square)](https://github.com/docker/buildx/releases/latest)
-[![PkgGoDev](https://img.shields.io/badge/go.dev-docs-007d9c?style=flat-square&logo=go&logoColor=white)](https://pkg.go.dev/github.com/docker/buildx)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/docker/buildx/build.yml?branch=master&label=build&logo=github&style=flat-square)](https://github.com/docker/buildx/actions?query=workflow%3Abuild)
-[![Go Report Card](https://goreportcard.com/badge/github.com/docker/buildx?style=flat-square)](https://goreportcard.com/report/github.com/docker/buildx)
+[![GitHub release](https://img.shields.io/github/release/docker/buildx.svg?style=flat-square)](https://github.com/joshuakb2/buildx/releases/latest)
+[![PkgGoDev](https://img.shields.io/badge/go.dev-docs-007d9c?style=flat-square&logo=go&logoColor=white)](https://pkg.go.dev/github.com/joshuakb2/buildx)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/docker/buildx/build.yml?branch=master&label=build&logo=github&style=flat-square)](https://github.com/joshuakb2/buildx/actions?query=workflow%3Abuild)
+[![Go Report Card](https://goreportcard.com/badge/github.com/joshuakb2/buildx?style=flat-square)](https://goreportcard.com/report/github.com/joshuakb2/buildx)
 [![codecov](https://img.shields.io/codecov/c/github/docker/buildx?logo=codecov&style=flat-square)](https://codecov.io/gh/docker/buildx)
 
 Buildx is a Docker CLI plugin for extended build capabilities with
-[BuildKit](https://github.com/moby/buildkit).
+[BuildKit](https://github.com/joshuakb2/buildkit).
 
 > [!TIP]
 > **Key features**
@@ -65,7 +65,7 @@ Docker Engine package repositories contain Docker Buildx packages when installed
 > On Windows and macOS, we recommend that you install [Docker Desktop](https://docs.docker.com/desktop/)
 > instead. For Linux, we recommend that you follow the [instructions specific for your distribution](#linux-packages).
 
-You can also download the latest binary from the [GitHub releases page](https://github.com/docker/buildx/releases/latest).
+You can also download the latest binary from the [GitHub releases page](https://github.com/joshuakb2/buildx/releases/latest).
 
 Rename the relevant binary and copy it to the destination matching your OS:
 
@@ -109,17 +109,17 @@ RUN docker buildx version
 
 ```console
 # Buildx 0.6+
-$ docker buildx bake "https://github.com/docker/buildx.git"
+$ docker buildx bake "https://github.com/joshuakb2/buildx.git"
 $ mkdir -p ~/.docker/cli-plugins
 $ mv ./bin/build/buildx ~/.docker/cli-plugins/docker-buildx
 
 # Docker 19.03+
-$ DOCKER_BUILDKIT=1 docker build --platform=local -o . "https://github.com/docker/buildx.git"
+$ DOCKER_BUILDKIT=1 docker build --platform=local -o . "https://github.com/joshuakb2/buildx.git"
 $ mkdir -p ~/.docker/cli-plugins
 $ mv buildx ~/.docker/cli-plugins/docker-buildx
 
 # Local
-$ git clone https://github.com/docker/buildx.git && cd buildx
+$ git clone https://github.com/joshuakb2/buildx.git && cd buildx
 $ make install
 ```
 

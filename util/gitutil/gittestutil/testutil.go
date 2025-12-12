@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/buildx/util/gitutil"
+	"github.com/joshuakb2/buildx/util/gitutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,31 +6,31 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/buildx/commands"
-	"github.com/docker/buildx/util/cobrautil"
-	"github.com/docker/buildx/util/desktop"
-	"github.com/docker/buildx/version"
+	"github.com/joshuakb2/buildx/commands"
+	"github.com/joshuakb2/buildx/util/cobrautil"
+	"github.com/joshuakb2/buildx/util/desktop"
+	"github.com/joshuakb2/buildx/version"
 	"github.com/docker/cli/cli"
 	"github.com/docker/cli/cli-plugins/metadata"
 	"github.com/docker/cli/cli-plugins/plugin"
 	"github.com/docker/cli/cli/command"
 	"github.com/docker/cli/cli/debug"
-	solvererrdefs "github.com/moby/buildkit/solver/errdefs"
-	"github.com/moby/buildkit/util/grpcerrors"
-	"github.com/moby/buildkit/util/stack"
+	solvererrdefs "github.com/joshuakb2/buildkit/solver/errdefs"
+	"github.com/joshuakb2/buildkit/util/grpcerrors"
+	"github.com/joshuakb2/buildkit/util/stack"
 	"github.com/pkg/errors"
 	"go.opentelemetry.io/otel"
 	"google.golang.org/grpc/codes"
 
 	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
 
-	_ "github.com/docker/buildx/driver/docker"
-	_ "github.com/docker/buildx/driver/docker-container"
-	_ "github.com/docker/buildx/driver/kubernetes"
-	_ "github.com/docker/buildx/driver/remote"
+	_ "github.com/joshuakb2/buildx/driver/docker"
+	_ "github.com/joshuakb2/buildx/driver/docker-container"
+	_ "github.com/joshuakb2/buildx/driver/kubernetes"
+	_ "github.com/joshuakb2/buildx/driver/remote"
 
 	// Use custom grpc codec to utilize vtprotobuf
-	_ "github.com/moby/buildkit/util/grpcutil/encoding/proto"
+	_ "github.com/joshuakb2/buildkit/util/grpcutil/encoding/proto"
 )
 
 func init() {

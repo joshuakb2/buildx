@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/buildx/util/gitutil"
-	"github.com/docker/buildx/util/osutil"
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildx/util/gitutil"
+	"github.com/joshuakb2/buildx/util/osutil"
+	"github.com/joshuakb2/buildkit/client"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

@@ -13,11 +13,11 @@ import (
 	"time"
 
 	cerrdefs "github.com/containerd/errdefs"
-	"github.com/docker/buildx/driver"
-	"github.com/docker/buildx/driver/bkimage"
-	"github.com/docker/buildx/util/confutil"
-	"github.com/docker/buildx/util/imagetools"
-	"github.com/docker/buildx/util/progress"
+	"github.com/joshuakb2/buildx/driver"
+	"github.com/joshuakb2/buildx/driver/bkimage"
+	"github.com/joshuakb2/buildx/util/confutil"
+	"github.com/joshuakb2/buildx/util/imagetools"
+	"github.com/joshuakb2/buildx/util/progress"
 	"github.com/docker/cli/cli/context/docker"
 	"github.com/docker/cli/opts"
 	"github.com/docker/docker/api/types/container"
@@ -27,7 +27,7 @@ import (
 	"github.com/docker/docker/api/types/system"
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/docker/docker/pkg/stdcopy"
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildkit/client"
 	mobyarchive "github.com/moby/go-archive"
 	"github.com/pkg/errors"
 )
@@ -140,7 +140,7 @@ func (d *Driver) create(ctx context.Context, l progress.SubLogger) error {
 		// Mount WSL libaries if running in WSL environment and Docker context
 		// is a local socket as requesting GPU on container builder creation
 		// is not enough when generating the CDI specification for GPU devices.
-		// https://github.com/docker/buildx/pull/3320
+		// https://github.com/joshuakb2/buildx/pull/3320
 		if os.Getenv("WSL_DISTRO_NAME") != "" {
 			if cm, err := d.ContextStore.GetMetadata(d.DockerContext); err == nil {
 				if epm, err := docker.EndpointFromContext(cm); err == nil && isSocket(epm.Host) {

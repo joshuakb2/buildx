@@ -1,4 +1,4 @@
-module github.com/docker/buildx
+module github.com/joshuakb2/buildx
 
 go 1.24.0
 
@@ -29,7 +29,6 @@ require (
 	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/in-toto/in-toto-golang v0.9.0
 	github.com/mitchellh/hashstructure/v2 v2.0.2
-	github.com/moby/buildkit v0.25.0
 	github.com/moby/go-archive v0.1.0
 	github.com/moby/sys/atomicwriter v0.1.0
 	github.com/moby/sys/mountinfo v0.7.2
@@ -117,6 +116,7 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
+	github.com/joshuakb2/buildkit v0.0.0-20251212022514-01c388646913 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.18.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
@@ -184,5 +184,5 @@ exclude (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
 )
 
-// restore junctions to have os.ModeSymlink flag set on Windows: https://github.com/docker/buildx/issues/3221
+// restore junctions to have os.ModeSymlink flag set on Windows: https://github.com/joshuakb2/buildx/issues/3221
 godebug winsymlink=0

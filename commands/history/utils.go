@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/buildx/build"
-	"github.com/docker/buildx/builder"
-	"github.com/docker/buildx/localstate"
+	"github.com/joshuakb2/buildx/build"
+	"github.com/joshuakb2/buildx/builder"
+	"github.com/joshuakb2/buildx/localstate"
 	"github.com/docker/cli/cli/command"
-	controlapi "github.com/moby/buildkit/api/services/control"
-	"github.com/moby/buildkit/frontend/dockerfile/dfgitutil"
+	controlapi "github.com/joshuakb2/buildkit/api/services/control"
+	"github.com/joshuakb2/buildkit/frontend/dockerfile/dfgitutil"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 )

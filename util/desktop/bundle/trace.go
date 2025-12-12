@@ -10,8 +10,8 @@ import (
 	"sync"
 
 	"github.com/containerd/containerd/v2/core/content"
-	"github.com/docker/buildx/util/otelutil"
-	"github.com/moby/buildkit/util/contentutil"
+	"github.com/joshuakb2/buildx/util/otelutil"
+	"github.com/joshuakb2/buildkit/util/contentutil"
 	"github.com/opencontainers/go-digest"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"go.opentelemetry.io/otel/attribute"

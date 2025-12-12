@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildkit/identity"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	"github.com/pkg/errors"
 )
 

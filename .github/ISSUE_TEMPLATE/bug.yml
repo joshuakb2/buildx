@@ -17,7 +17,7 @@ body:
       description: |
         Please read the contributing guidelines before proceeding.
       options:
-        - label: I've read the [contributing guidelines](https://github.com/docker/buildx/blob/master/.github/CONTRIBUTING.md) and wholeheartedly agree
+        - label: I've read the [contributing guidelines](https://github.com/joshuakb2/buildx/blob/master/.github/CONTRIBUTING.md) and wholeheartedly agree
           required: true
 
   - type: checkboxes
@@ -59,7 +59,7 @@ body:
       label: Buildx version
       description: |
         Output of `docker buildx version` command.
-        Example: `github.com/docker/buildx v0.8.1 5fac64c2c49dae1320f2b51f1a899ca451935554`
+        Example: `github.com/joshuakb2/buildx v0.8.1 5fac64c2c49dae1320f2b51f1a899ca451935554`
     validations:
       required: true
 

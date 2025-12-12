@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/distribution/reference"
-	"github.com/docker/buildx/tests/workers"
-	"github.com/moby/buildkit/util/testutil/integration"
-	bkworkers "github.com/moby/buildkit/util/testutil/workers"
+	"github.com/joshuakb2/buildx/tests/workers"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
+	bkworkers "github.com/joshuakb2/buildkit/util/testutil/workers"
 )
 
 func init() {

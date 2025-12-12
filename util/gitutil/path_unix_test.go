@@ -6,7 +6,7 @@ package gitutil
 import (
 	"testing"
 
-	"github.com/docker/buildx/util/osutil"
+	"github.com/joshuakb2/buildx/util/osutil"
 	"github.com/stretchr/testify/assert"
 )
 

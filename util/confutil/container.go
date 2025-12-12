@@ -15,7 +15,7 @@ const (
 	// DefaultBuildKitStateDir and DefaultBuildKitConfigDir are the location
 	// where buildkitd inside the container stores its state. Some drivers
 	// create a Linux container, so this should match the location for Linux,
-	// as defined in: https://github.com/moby/buildkit/blob/v0.9.0/util/appdefaults/appdefaults_unix.go#L11-L15
+	// as defined in: https://github.com/joshuakb2/buildkit/blob/v0.9.0/util/appdefaults/appdefaults_unix.go#L11-L15
 	DefaultBuildKitStateDir  = "/var/lib/buildkit"
 	DefaultBuildKitConfigDir = "/etc/buildkit"
 )

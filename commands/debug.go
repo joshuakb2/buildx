@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/buildx/build"
-	"github.com/docker/buildx/monitor"
-	"github.com/docker/buildx/util/cobrautil"
-	"github.com/docker/buildx/util/ioset"
-	"github.com/docker/buildx/util/progress"
+	"github.com/joshuakb2/buildx/build"
+	"github.com/joshuakb2/buildx/monitor"
+	"github.com/joshuakb2/buildx/util/cobrautil"
+	"github.com/joshuakb2/buildx/util/ioset"
+	"github.com/joshuakb2/buildx/util/progress"
 	"github.com/docker/cli/cli/command"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
@@ -115,7 +115,7 @@ func parseInvokeConfig(invoke, on string) (*build.InvokeConfig, error) {
 	case "on-error":
 		// NOTE: we overwrite the command to run because the original one should fail on the failed step.
 		// TODO: make this configurable via flags or restorable from LLB.
-		// Discussion: https://github.com/docker/buildx/pull/1640#discussion_r1113295900
+		// Discussion: https://github.com/joshuakb2/buildx/pull/1640#discussion_r1113295900
 		cfg.Cmd = []string{"/bin/sh"}
 		cfg.NoCmd = false
 		return cfg, nil

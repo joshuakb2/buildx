@@ -5,9 +5,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/docker/buildx/util/progress"
+	"github.com/joshuakb2/buildx/util/progress"
 	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildkit/client"
 )
 
 const minTimeDelta = 2 * time.Second

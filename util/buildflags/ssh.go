@@ -6,7 +6,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/moby/buildkit/util/gitutil"
+	"github.com/joshuakb2/buildkit/util/gitutil"
 )
 
 type SSHKeys []*SSH

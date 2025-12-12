@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/docker/buildx/build"
-	"github.com/docker/buildx/monitor/processes"
+	"github.com/joshuakb2/buildx/build"
+	"github.com/joshuakb2/buildx/monitor/processes"
 )
 
 // Monitor provides APIs for attaching and controlling the buildx server.

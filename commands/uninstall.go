@@ -3,8 +3,8 @@ package commands
 import (
 	"os"
 
-	"github.com/docker/buildx/util/cobrautil"
-	"github.com/docker/buildx/util/cobrautil/completion"
+	"github.com/joshuakb2/buildx/util/cobrautil"
+	"github.com/joshuakb2/buildx/util/cobrautil/completion"
 	"github.com/docker/cli/cli"
 	"github.com/docker/cli/cli/command"
 	"github.com/docker/cli/cli/config"

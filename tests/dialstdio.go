@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/buildx/util/progress"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/client/llb"
-	gwclient "github.com/moby/buildkit/frontend/gateway/client"
-	"github.com/moby/buildkit/util/progress/progressui"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildx/util/progress"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/client/llb"
+	gwclient "github.com/joshuakb2/buildkit/frontend/gateway/client"
+	"github.com/joshuakb2/buildkit/util/progress/progressui"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )

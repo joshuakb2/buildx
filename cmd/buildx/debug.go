@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/moby/buildkit/util/bklog"
+	"github.com/joshuakb2/buildkit/util/bklog"
 	"github.com/sirupsen/logrus"
 )
 

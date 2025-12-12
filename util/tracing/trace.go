@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/moby/buildkit/util/tracing/delegated"
-	"github.com/moby/buildkit/util/tracing/detect"
+	"github.com/joshuakb2/buildkit/util/tracing/delegated"
+	"github.com/joshuakb2/buildkit/util/tracing/detect"
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/attribute"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"

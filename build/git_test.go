@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/buildx/util/gitutil"
-	"github.com/docker/buildx/util/gitutil/gittestutil"
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildx/util/gitutil"
+	"github.com/joshuakb2/buildx/util/gitutil/gittestutil"
+	"github.com/joshuakb2/buildkit/client"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"github.com/docker/buildx/util/cobrautil/completion"
+	"github.com/joshuakb2/buildx/util/cobrautil/completion"
 	"github.com/docker/cli/cli/command"
 	"github.com/spf13/cobra"
 )

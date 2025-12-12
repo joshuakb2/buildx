@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/containerd/platforms"
-	"github.com/docker/buildx/util/confutil"
-	"github.com/docker/buildx/util/platformutil"
+	"github.com/joshuakb2/buildx/util/confutil"
+	"github.com/joshuakb2/buildx/util/platformutil"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

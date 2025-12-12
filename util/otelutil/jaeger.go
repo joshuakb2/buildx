@@ -3,7 +3,7 @@ package otelutil
 import (
 	"fmt"
 
-	"github.com/docker/buildx/util/otelutil/jaeger"
+	"github.com/joshuakb2/buildx/util/otelutil/jaeger"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/resource"
 )

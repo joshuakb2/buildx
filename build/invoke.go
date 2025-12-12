@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	gateway "github.com/moby/buildkit/frontend/gateway/client"
+	gateway "github.com/joshuakb2/buildkit/frontend/gateway/client"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

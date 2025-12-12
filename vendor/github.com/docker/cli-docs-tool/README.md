@@ -25,14 +25,14 @@ We will use the example of `docker/buildx` and create a Go submodule in a
 ```console
 $ mkdir docs
 $ cd ./docs
-$ go mod init github.com/docker/buildx/docs
+$ go mod init github.com/joshuakb2/buildx/docs
 $ go get github.com/docker/cli-docs-tool
 ```
 
 Your `go.mod` should look like this:
 
 ```text
-module github.com/docker/buildx/docs
+module github.com/joshuakb2/buildx/docs
 
 go 1.16
 

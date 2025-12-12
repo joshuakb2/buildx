@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	"github.com/stretchr/testify/require"
 )
 

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/buildx/build"
-	"github.com/docker/buildx/util/ioset"
+	"github.com/joshuakb2/buildx/build"
+	"github.com/joshuakb2/buildx/util/ioset"
 	"github.com/docker/cli/cli-plugins/metadata"
 	"github.com/google/go-dap"
 	"github.com/pkg/errors"

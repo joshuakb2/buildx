@@ -10,9 +10,9 @@ import (
 	"os"
 	"strings"
 
-	remoteutil "github.com/docker/buildx/driver/remote/util"
-	"github.com/docker/buildx/util/cobrautil/completion"
-	"github.com/docker/buildx/util/desktop"
+	remoteutil "github.com/joshuakb2/buildx/driver/remote/util"
+	"github.com/joshuakb2/buildx/util/cobrautil/completion"
+	"github.com/joshuakb2/buildx/util/desktop"
 	"github.com/docker/cli/cli/command"
 	"github.com/pkg/browser"
 	"github.com/pkg/errors"

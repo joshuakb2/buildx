@@ -5,9 +5,9 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/util/testutil/integration"
-	bkworkers "github.com/moby/buildkit/util/testutil/workers"
+	"github.com/joshuakb2/buildkit/identity"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
+	bkworkers "github.com/joshuakb2/buildkit/util/testutil/workers"
 	"github.com/pkg/errors"
 )
 

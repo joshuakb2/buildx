@@ -10,10 +10,10 @@ import (
 	"github.com/containerd/containerd/v2/core/remotes/docker"
 	"github.com/containerd/log"
 	"github.com/distribution/reference"
-	"github.com/docker/buildx/util/resolver"
+	"github.com/joshuakb2/buildx/util/resolver"
 	clitypes "github.com/docker/cli/cli/config/types"
-	"github.com/moby/buildkit/util/contentutil"
-	"github.com/moby/buildkit/util/tracing"
+	"github.com/joshuakb2/buildkit/util/contentutil"
+	"github.com/joshuakb2/buildkit/util/tracing"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/sirupsen/logrus"
 )

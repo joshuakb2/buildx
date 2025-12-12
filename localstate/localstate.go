@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/docker/buildx/util/confutil"
+	"github.com/joshuakb2/buildx/util/confutil"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 )

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/buildx/dap/common"
+	"github.com/joshuakb2/buildx/dap/common"
 	"github.com/google/go-dap"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sync/errgroup"

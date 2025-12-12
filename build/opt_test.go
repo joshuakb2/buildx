@@ -3,8 +3,8 @@ package build
 import (
 	"testing"
 
-	"github.com/docker/buildx/util/buildflags"
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildx/util/buildflags"
+	"github.com/joshuakb2/buildkit/client"
 	"github.com/stretchr/testify/require"
 )
 

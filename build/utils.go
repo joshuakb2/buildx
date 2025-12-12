@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/buildx/driver"
+	"github.com/joshuakb2/buildx/driver"
 	"github.com/docker/cli/opts"
-	"github.com/moby/buildkit/frontend/dockerfile/dfgitutil"
+	"github.com/joshuakb2/buildkit/frontend/dockerfile/dfgitutil"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

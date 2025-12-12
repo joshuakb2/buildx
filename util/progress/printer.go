@@ -6,10 +6,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/docker/buildx/util/logutil"
+	"github.com/joshuakb2/buildx/util/logutil"
 	"github.com/mitchellh/hashstructure/v2"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/util/progress/progressui"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/util/progress/progressui"
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 	"go.opentelemetry.io/otel/attribute"
@@ -43,7 +43,7 @@ type Printer struct {
 	metrics      *metricWriter
 
 	// TODO: remove once we can use result context to pass build ref
-	//  see https://github.com/docker/buildx/pull/1861
+	//  see https://github.com/joshuakb2/buildx/pull/1861
 	buildRefsMu sync.Mutex
 	buildRefs   map[string]string
 }

@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/docker/buildx/util/confutil"
+	"github.com/joshuakb2/buildx/util/confutil"
 	"github.com/stretchr/testify/require"
 )
 

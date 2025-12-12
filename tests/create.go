@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/buildx/driver"
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildx/driver"
+	"github.com/joshuakb2/buildkit/identity"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	"github.com/stretchr/testify/require"
 )
 

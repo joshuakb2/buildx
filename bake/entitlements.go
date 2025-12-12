@@ -15,9 +15,9 @@ import (
 	"syscall"
 
 	"github.com/containerd/console"
-	"github.com/docker/buildx/build"
-	"github.com/docker/buildx/util/osutil"
-	"github.com/moby/buildkit/util/entitlements"
+	"github.com/joshuakb2/buildx/build"
+	"github.com/joshuakb2/buildx/util/osutil"
+	"github.com/joshuakb2/buildkit/util/entitlements"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/tonistiigi/go-csvvalue"

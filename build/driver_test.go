@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/containerd/platforms"
-	"github.com/docker/buildx/builder"
+	"github.com/joshuakb2/buildx/builder"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/stretchr/testify/require"
 )

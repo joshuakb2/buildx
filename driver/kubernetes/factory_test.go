@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/buildx/driver"
-	"github.com/docker/buildx/driver/bkimage"
+	"github.com/joshuakb2/buildx/driver"
+	"github.com/joshuakb2/buildx/driver/bkimage"
 	"github.com/stretchr/testify/require"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/rest"

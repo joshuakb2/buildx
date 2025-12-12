@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/docker/buildx/store"
+	"github.com/joshuakb2/buildx/store"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 )

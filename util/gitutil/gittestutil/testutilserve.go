@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/docker/buildx/util/gitutil"
+	"github.com/joshuakb2/buildx/util/gitutil"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )

@@ -74,14 +74,14 @@ jobs:
         run: |
           make vendor
         env:
-          VENDOR_MODULE: github.com/docker/buildx@${{ env.RELEASE_NAME }}
+          VENDOR_MODULE: github.com/joshuakb2/buildx@${{ env.RELEASE_NAME }}
       -
         name: Create PR on docs repo
         uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e  # v7.0.8
         with:
           token: ${{ secrets.GHPAT_DOCS_DISPATCH }}
           push-to-fork: docker-tools-robot/docker.github.io
-          commit-message: "vendor: github.com/docker/buildx ${{ env.RELEASE_NAME }}"
+          commit-message: "vendor: github.com/joshuakb2/buildx ${{ env.RELEASE_NAME }}"
           signoff: true
           branch: dispatch/buildx-ref-${{ env.RELEASE_NAME }}
           delete-branch: true

@@ -40,5 +40,5 @@ offer a paid security bounty program at this time.
 Once a new feature release is cut, support for the previous feature release is
 discontinued. An exception may be made for urgent security releases that occur
 shortly after a new feature release. Buildx does not offer LTS (Long-Term Support)
-releases. Refer to the [Support Policy](https://github.com/docker/buildx/blob/master/PROJECT.md#support-policy)
+releases. Refer to the [Support Policy](https://github.com/joshuakb2/buildx/blob/master/PROJECT.md#support-policy)
 for further details.

@@ -3,7 +3,7 @@ package store
 import (
 	"testing"
 
-	"github.com/docker/buildx/util/platformutil"
+	"github.com/joshuakb2/buildx/util/platformutil"
 	"github.com/stretchr/testify/require"
 )
 

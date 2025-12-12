@@ -7,8 +7,8 @@ import (
 	"slices"
 
 	"github.com/containerd/platforms"
-	"github.com/docker/buildx/builder"
-	"github.com/docker/buildx/util/progress"
+	"github.com/joshuakb2/buildx/builder"
+	"github.com/joshuakb2/buildx/util/progress"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 )

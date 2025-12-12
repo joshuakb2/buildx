@@ -1,7 +1,7 @@
 package metricutil
 
 import (
-	"github.com/docker/buildx/version"
+	"github.com/joshuakb2/buildx/version"
 	"go.opentelemetry.io/otel/metric"
 )
 

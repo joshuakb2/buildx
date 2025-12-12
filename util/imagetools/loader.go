@@ -18,7 +18,7 @@ import (
 	"github.com/containerd/platforms"
 	"github.com/distribution/reference"
 	intoto "github.com/in-toto/in-toto-golang/in_toto"
-	"github.com/moby/buildkit/util/contentutil"
+	"github.com/joshuakb2/buildkit/util/contentutil"
 	"github.com/opencontainers/go-digest"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

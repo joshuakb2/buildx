@@ -1,6 +1,6 @@
 package dap
 
-import "github.com/docker/buildx/dap/common"
+import "github.com/joshuakb2/buildx/dap/common"
 
 type LaunchConfig interface {
 	GetConfig() common.Config

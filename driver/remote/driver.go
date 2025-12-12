@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/buildx/driver"
-	util "github.com/docker/buildx/driver/remote/util"
-	"github.com/docker/buildx/util/progress"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/client/connhelper"
-	"github.com/moby/buildkit/util/tracing/delegated"
+	"github.com/joshuakb2/buildx/driver"
+	util "github.com/joshuakb2/buildx/driver/remote/util"
+	"github.com/joshuakb2/buildx/util/progress"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/client/connhelper"
+	"github.com/joshuakb2/buildkit/util/tracing/delegated"
 	"github.com/pkg/errors"
 )
 

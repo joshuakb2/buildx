@@ -6,7 +6,7 @@ import (
 	"io"
 
 	cerrdefs "github.com/containerd/errdefs"
-	"github.com/docker/buildx/monitor/types"
+	"github.com/joshuakb2/buildx/monitor/types"
 	"github.com/pkg/errors"
 )
 

@@ -14,9 +14,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/google/go-dap"
-	"github.com/moby/buildkit/client/llb"
-	gateway "github.com/moby/buildkit/frontend/gateway/client"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/joshuakb2/buildkit/client/llb"
+	gateway "github.com/joshuakb2/buildkit/frontend/gateway/client"
+	"github.com/joshuakb2/buildkit/solver/pb"
 	"github.com/tonistiigi/fsutil/types"
 )
 

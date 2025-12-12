@@ -3,8 +3,8 @@ package gitutil_test
 import (
 	"testing"
 
-	"github.com/docker/buildx/util/gitutil"
-	"github.com/docker/buildx/util/gitutil/gittestutil"
+	"github.com/joshuakb2/buildx/util/gitutil"
+	"github.com/joshuakb2/buildx/util/gitutil/gittestutil"
 	"github.com/stretchr/testify/require"
 )
 

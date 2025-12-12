@@ -5,7 +5,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/docker/buildx/util/platformutil"
+	"github.com/joshuakb2/buildx/util/platformutil"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
@@ -296,8 +296,8 @@ func toRootless(d *appsv1.Deployment) error {
 	// Dockerfile has `VOLUME /home/user/.local/share/buildkit` by default too,
 	// but the default VOLUME does not work with rootless on Google's Container-Optimized OS
 	// as it is mounted with `nosuid,nodev`.
-	// https://github.com/moby/buildkit/issues/879#issuecomment-1240347038
-	// https://github.com/moby/buildkit/pull/3097
+	// https://github.com/joshuakb2/buildkit/issues/879#issuecomment-1240347038
+	// https://github.com/joshuakb2/buildkit/pull/3097
 	const emptyDirVolName = "buildkitd"
 	d.Spec.Template.Spec.Containers[0].VolumeMounts = append(d.Spec.Template.Spec.Containers[0].VolumeMounts, corev1.VolumeMount{
 		Name:      emptyDirVolName,

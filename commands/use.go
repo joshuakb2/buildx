@@ -3,9 +3,9 @@ package commands
 import (
 	"os"
 
-	"github.com/docker/buildx/store/storeutil"
-	"github.com/docker/buildx/util/cobrautil/completion"
-	"github.com/docker/buildx/util/dockerutil"
+	"github.com/joshuakb2/buildx/store/storeutil"
+	"github.com/joshuakb2/buildx/util/cobrautil/completion"
+	"github.com/joshuakb2/buildx/util/dockerutil"
 	"github.com/docker/cli/cli"
 	"github.com/docker/cli/cli/command"
 	"github.com/pkg/errors"

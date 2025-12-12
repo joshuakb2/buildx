@@ -2,7 +2,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Questions and Discussions
-    url: https://github.com/docker/buildx/discussions/new
+    url: https://github.com/joshuakb2/buildx/discussions/new
     about: Use Github Discussions to ask questions and/or open discussion topics.
   - name: Command line reference
     url: https://docs.docker.com/engine/reference/commandline/buildx/

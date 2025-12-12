@@ -7,15 +7,15 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/buildx/driver"
-	util "github.com/docker/buildx/driver/remote/util"
+	"github.com/joshuakb2/buildx/driver"
+	util "github.com/joshuakb2/buildx/driver/remote/util"
 	dockerclient "github.com/docker/docker/client"
 	"github.com/pkg/errors"
 
 	// import connhelpers for special url schemes
-	_ "github.com/moby/buildkit/client/connhelper/dockercontainer"
-	_ "github.com/moby/buildkit/client/connhelper/kubepod"
-	_ "github.com/moby/buildkit/client/connhelper/ssh"
+	_ "github.com/joshuakb2/buildkit/client/connhelper/dockercontainer"
+	_ "github.com/joshuakb2/buildkit/client/connhelper/kubepod"
+	_ "github.com/joshuakb2/buildkit/client/connhelper/ssh"
 )
 
 const prioritySupported = 20

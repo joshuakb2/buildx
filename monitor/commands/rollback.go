@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/docker/buildx/build"
-	"github.com/docker/buildx/monitor/types"
+	"github.com/joshuakb2/buildx/build"
+	"github.com/joshuakb2/buildx/monitor/types"
 )
 
 type RollbackCmd struct {

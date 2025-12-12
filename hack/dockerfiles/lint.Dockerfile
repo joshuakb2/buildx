@@ -34,17 +34,17 @@ ARG GOLANGCI_FROM_SOURCE
 COPY --link --from=golangci-binary / /usr/bin/
 RUN [ "${GOLANGCI_FROM_SOURCE}" = "true" ] && exit 0; wget -O- -nv https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s ${GOLANGCI_LINT_VERSION}
 COPY --link --from=xx / /
-WORKDIR /go/src/github.com/docker/buildx
+WORKDIR /go/src/github.com/joshuakb2/buildx
 ARG TARGETPLATFORM
 
 FROM lint-base AS lint
-RUN --mount=target=/go/src/github.com/docker/buildx \
+RUN --mount=target=/go/src/github.com/joshuakb2/buildx \
     --mount=target=/root/.cache,type=cache,id=lint-cache-$TARGETPLATFORM \
     xx-go --wrap && \
     golangci-lint run
 
 FROM lint-base AS validate-golangci
-RUN --mount=target=/go/src/github.com/docker/buildx \
+RUN --mount=target=/go/src/github.com/joshuakb2/buildx \
   golangci-lint config verify
 
 FROM base AS gopls
@@ -80,7 +80,7 @@ COPY --link --from=xx / /
 ARG GOPLS_ANALYZERS
 ARG TARGETNAME
 ARG TARGETPLATFORM
-WORKDIR /go/src/github.com/docker/buildx
+WORKDIR /go/src/github.com/joshuakb2/buildx
 RUN --mount=target=. \
   --mount=target=/root/.cache,type=cache,id=lint-cache-${TARGETNAME}-${TARGETPLATFORM} \
   --mount=target=/gopls-analyzers,from=gopls,source=/out <<EOF
@@ -95,7 +95,7 @@ FROM base AS modernize-fix-run
 COPY --link --from=xx / /
 ARG TARGETNAME
 ARG TARGETPLATFORM
-WORKDIR /go/src/github.com/docker/buildx
+WORKDIR /go/src/github.com/joshuakb2/buildx
 RUN --mount=target=.,rw \
   --mount=target=/root/.cache,type=cache,id=lint-cache-${TARGETNAME}-${TARGETPLATFORM} \
   --mount=target=/gopls-analyzers,from=gopls,source=/out <<EOF

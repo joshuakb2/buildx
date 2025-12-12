@@ -1,4 +1,4 @@
-// Forked from https://github.com/moby/buildkit/blob/e1b3b6c4abf7684f13e6391e5f7bc9210752687a/tools/tools.go
+// Forked from https://github.com/joshuakb2/buildkit/blob/e1b3b6c4abf7684f13e6391e5f7bc9210752687a/tools/tools.go
 //go:build tools
 // +build tools
 

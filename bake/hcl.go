@@ -5,8 +5,8 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclparse"
-	"github.com/moby/buildkit/solver/errdefs"
-	"github.com/moby/buildkit/solver/pb"
+	"github.com/joshuakb2/buildkit/solver/errdefs"
+	"github.com/joshuakb2/buildkit/solver/pb"
 )
 
 func ParseHCLFile(dt []byte, fn string) (*hcl.File, bool, error) {

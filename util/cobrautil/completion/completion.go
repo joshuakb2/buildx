@@ -3,9 +3,9 @@ package completion
 import (
 	"strings"
 
-	"github.com/docker/buildx/bake"
-	"github.com/docker/buildx/builder"
-	"github.com/docker/buildx/store/storeutil"
+	"github.com/joshuakb2/buildx/bake"
+	"github.com/joshuakb2/buildx/builder"
+	"github.com/joshuakb2/buildx/store/storeutil"
 	"github.com/docker/cli/cli/command"
 	"github.com/spf13/cobra"
 )

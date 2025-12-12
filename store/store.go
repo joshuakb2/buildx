@@ -7,8 +7,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/docker/buildx/localstate"
-	"github.com/docker/buildx/util/confutil"
+	"github.com/joshuakb2/buildx/localstate"
+	"github.com/joshuakb2/buildx/util/confutil"
 	"github.com/gofrs/flock"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/docker/buildx/util/buildflags"
-	"github.com/moby/buildkit/util/entitlements"
+	"github.com/joshuakb2/buildx/util/buildflags"
+	"github.com/joshuakb2/buildkit/util/entitlements"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -2209,7 +2209,7 @@ target "app" {
 	require.Contains(t, err.Error(), "This check failed, but has an invalid error message")
 }
 
-// https://github.com/docker/buildx/issues/2822
+// https://github.com/joshuakb2/buildx/issues/2822
 func TestVariableEmpty(t *testing.T) {
 	fp := File{
 		Name: "docker-bake.hcl",
@@ -2230,7 +2230,7 @@ target "app" {
 	require.Len(t, m["app"].Outputs, 0)
 }
 
-// https://github.com/docker/buildx/issues/2858
+// https://github.com/joshuakb2/buildx/issues/2858
 func TestOverrideEmpty(t *testing.T) {
 	fp := File{
 		Name: "docker-bake.hcl",
@@ -2265,7 +2265,7 @@ target "app" {
 	require.Equal(t, "Dockerfile", *m["app"].Dockerfile)
 }
 
-// https://github.com/docker/buildx/issues/2859
+// https://github.com/joshuakb2/buildx/issues/2859
 func TestGroupTargetsWithDefault(t *testing.T) {
 	t.Run("OnTarget", func(t *testing.T) {
 		fp := File{

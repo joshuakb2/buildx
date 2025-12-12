@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/buildx/util/metricutil"
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildx/util/metricutil"
+	"github.com/joshuakb2/buildkit/client"
 	"github.com/opencontainers/go-digest"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"

@@ -13,7 +13,7 @@ import (
 	"github.com/compose-spec/compose-go/v2/loader"
 	composeschema "github.com/compose-spec/compose-go/v2/schema"
 	composetypes "github.com/compose-spec/compose-go/v2/types"
-	"github.com/docker/buildx/util/buildflags"
+	"github.com/joshuakb2/buildx/util/buildflags"
 	dockeropts "github.com/docker/cli/opts"
 	"github.com/docker/go-units"
 	"github.com/pkg/errors"

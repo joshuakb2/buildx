@@ -7,7 +7,7 @@ ARG GOVULNCHECK_VERSION=v1.1.4
 ARG FORMAT="text"
 
 FROM golang:${GO_VERSION}-alpine${ALPINE_VERSION} AS base
-WORKDIR /go/src/github.com/docker/buildx
+WORKDIR /go/src/github.com/joshuakb2/buildx
 RUN apk add --no-cache jq moreutils
 ARG GOVULNCHECK_VERSION
 RUN --mount=type=cache,target=/root/.cache \

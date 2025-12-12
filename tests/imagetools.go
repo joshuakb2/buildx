@@ -8,7 +8,7 @@ import (
 	"github.com/containerd/containerd/v2/core/images"
 	"github.com/containerd/continuity/fs/fstest"
 	"github.com/containerd/platforms"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"

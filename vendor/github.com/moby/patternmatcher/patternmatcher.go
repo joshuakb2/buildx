@@ -172,7 +172,7 @@ func (pm *PatternMatcher) MatchesOrParentMatches(file string) (bool, error) {
 // MatchesUsingParentResult is not safe to call concurrently.
 //
 // Deprecated: this function does behave correctly in some cases (see
-// https://github.com/docker/buildx/issues/850).
+// https://github.com/joshuakb2/buildx/issues/850).
 //
 // Use MatchesUsingParentResults instead.
 func (pm *PatternMatcher) MatchesUsingParentResult(file string, parentMatched bool) (bool, error) {

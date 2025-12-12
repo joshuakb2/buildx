@@ -1,7 +1,7 @@
 package buildflags
 
 import (
-	"github.com/moby/buildkit/util/entitlements"
+	"github.com/joshuakb2/buildkit/util/entitlements"
 )
 
 func ParseEntitlements(in []string) ([]string, error) {

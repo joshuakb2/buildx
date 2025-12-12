@@ -5,12 +5,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/buildx/driver"
-	"github.com/docker/buildx/util/progress"
+	"github.com/joshuakb2/buildx/driver"
+	"github.com/joshuakb2/buildx/util/progress"
 	"github.com/docker/go-units"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/client/llb"
-	gwclient "github.com/moby/buildkit/frontend/gateway/client"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/client/llb"
+	gwclient "github.com/joshuakb2/buildkit/frontend/gateway/client"
 	"github.com/pkg/errors"
 )
 

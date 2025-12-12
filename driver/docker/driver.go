@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/docker/buildx/driver"
-	"github.com/docker/buildx/util/progress"
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildx/driver"
+	"github.com/joshuakb2/buildx/util/progress"
+	"github.com/joshuakb2/buildkit/client"
 	"github.com/pkg/errors"
 )
 

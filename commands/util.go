@@ -36,7 +36,7 @@ func prompt(ctx context.Context, ins io.Reader, out io.Writer, msg string) (bool
 // Copied from github.com/docker/cli since the upstream version changed
 // recently with an incompatible change.
 //
-// See https://github.com/docker/buildx/pull/2359#discussion_r1544736494
+// See https://github.com/joshuakb2/buildx/pull/2359#discussion_r1544736494
 // for discussion on the issue.
 func promptForConfirmation(ins io.Reader, outs io.Writer, message string) bool {
 	if message == "" {

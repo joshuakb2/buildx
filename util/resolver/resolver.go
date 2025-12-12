@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/containerd/containerd/v2/core/remotes/docker"
-	"github.com/moby/buildkit/util/tracing"
+	"github.com/joshuakb2/buildkit/util/tracing"
 	"github.com/pkg/errors"
 )
 

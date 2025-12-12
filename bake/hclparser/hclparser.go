@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/buildx/bake/hclparser/gohcl"
-	"github.com/docker/buildx/util/userfunc"
+	"github.com/joshuakb2/buildx/bake/hclparser/gohcl"
+	"github.com/joshuakb2/buildx/util/userfunc"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/ext/typeexpr"
 	"github.com/pkg/errors"
@@ -1184,7 +1184,7 @@ func removeAttributesDiags(diags hcl.Diagnostics, reserved map[string]struct{}, 
 	var fdiags hcl.Diagnostics
 	for _, d := range diags {
 		if fout := func(d *hcl.Diagnostic) bool {
-			// https://github.com/docker/buildx/pull/541
+			// https://github.com/joshuakb2/buildx/pull/541
 			if d.Detail == "Blocks are not allowed here." {
 				return true
 			}

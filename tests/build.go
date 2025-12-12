@@ -16,20 +16,20 @@ import (
 	"github.com/containerd/continuity/fs/fstest"
 	"github.com/containerd/platforms"
 	"github.com/creack/pty"
-	"github.com/docker/buildx/localstate"
-	"github.com/docker/buildx/util/confutil"
-	"github.com/docker/buildx/util/gitutil"
-	"github.com/docker/buildx/util/gitutil/gittestutil"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/frontend/subrequests/lint"
-	"github.com/moby/buildkit/frontend/subrequests/outline"
-	"github.com/moby/buildkit/frontend/subrequests/targets"
-	"github.com/moby/buildkit/identity"
-	provenancetypes "github.com/moby/buildkit/solver/llbsolver/provenance/types"
-	"github.com/moby/buildkit/util/appdefaults"
-	"github.com/moby/buildkit/util/contentutil"
-	"github.com/moby/buildkit/util/testutil"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildx/localstate"
+	"github.com/joshuakb2/buildx/util/confutil"
+	"github.com/joshuakb2/buildx/util/gitutil"
+	"github.com/joshuakb2/buildx/util/gitutil/gittestutil"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/frontend/subrequests/lint"
+	"github.com/joshuakb2/buildkit/frontend/subrequests/outline"
+	"github.com/joshuakb2/buildkit/frontend/subrequests/targets"
+	"github.com/joshuakb2/buildkit/identity"
+	provenancetypes "github.com/joshuakb2/buildkit/solver/llbsolver/provenance/types"
+	"github.com/joshuakb2/buildkit/util/appdefaults"
+	"github.com/joshuakb2/buildkit/util/contentutil"
+	"github.com/joshuakb2/buildkit/util/testutil"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	"github.com/opencontainers/go-digest"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
@@ -1068,7 +1068,7 @@ func testBuildMultiExporters(t *testing.T, sb integration.Sandbox) {
 	_, err = os.ReadFile(fmt.Sprintf("%s/result", dir))
 	require.NoError(t, err)
 
-	// TODO: test metadata file when supported by multi exporters https://github.com/docker/buildx/issues/2181
+	// TODO: test metadata file when supported by multi exporters https://github.com/joshuakb2/buildx/issues/2181
 }
 
 func testBuildLoadPush(t *testing.T, sb integration.Sandbox) {
@@ -1112,7 +1112,7 @@ func testBuildLoadPush(t *testing.T, sb integration.Sandbox) {
 	cmd.Stderr = os.Stderr
 	require.NoError(t, cmd.Run())
 
-	// TODO: test metadata file when supported by multi exporters https://github.com/docker/buildx/issues/2181
+	// TODO: test metadata file when supported by multi exporters https://github.com/joshuakb2/buildx/issues/2181
 }
 
 func testBuildSecret(t *testing.T, sb integration.Sandbox) {

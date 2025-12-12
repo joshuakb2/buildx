@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/docker/buildx/driver"
+	"github.com/joshuakb2/buildx/driver"
 	dockeropts "github.com/docker/cli/opts"
 	dockerclient "github.com/docker/docker/client"
 	"github.com/pkg/errors"

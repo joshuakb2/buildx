@@ -15,16 +15,16 @@ import (
 	"testing"
 
 	"github.com/containerd/continuity/fs/fstest"
-	"github.com/docker/buildx/bake"
-	"github.com/docker/buildx/util/gitutil"
-	"github.com/docker/buildx/util/gitutil/gittestutil"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/frontend/subrequests/lint"
-	"github.com/moby/buildkit/identity"
-	provenancetypes "github.com/moby/buildkit/solver/llbsolver/provenance/types"
-	"github.com/moby/buildkit/util/contentutil"
-	"github.com/moby/buildkit/util/testutil"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildx/bake"
+	"github.com/joshuakb2/buildx/util/gitutil"
+	"github.com/joshuakb2/buildx/util/gitutil/gittestutil"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/frontend/subrequests/lint"
+	"github.com/joshuakb2/buildkit/identity"
+	provenancetypes "github.com/joshuakb2/buildkit/solver/llbsolver/provenance/types"
+	"github.com/joshuakb2/buildkit/util/contentutil"
+	"github.com/joshuakb2/buildkit/util/testutil"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )
@@ -677,7 +677,7 @@ EOT
 	require.FileExists(t, filepath.Join(dirDest, "foo"))
 }
 
-// https://github.com/docker/buildx/issues/1738
+// https://github.com/joshuakb2/buildx/issues/1738
 func testBakeRemoteContextSubdir(t *testing.T, sb integration.Sandbox) {
 	bakefile := []byte(`
 target default {
@@ -1635,7 +1635,7 @@ target "default" {
 	_, err = os.ReadFile(fmt.Sprintf("%s/result", dir))
 	require.NoError(t, err)
 
-	// TODO: test metadata file when supported by multi exporters https://github.com/docker/buildx/issues/2181
+	// TODO: test metadata file when supported by multi exporters https://github.com/joshuakb2/buildx/issues/2181
 }
 
 func testBakeLoadPush(t *testing.T, sb integration.Sandbox) {
@@ -1688,7 +1688,7 @@ target "default" {
 	cmd.Stderr = os.Stderr
 	require.NoError(t, cmd.Run())
 
-	// TODO: test metadata file when supported by multi exporters https://github.com/docker/buildx/issues/2181
+	// TODO: test metadata file when supported by multi exporters https://github.com/joshuakb2/buildx/issues/2181
 }
 
 func testBakeListTargets(t *testing.T, sb integration.Sandbox) {

@@ -3,7 +3,7 @@ package commands
 import (
 	"context"
 
-	"github.com/docker/buildx/monitor/types"
+	"github.com/joshuakb2/buildx/monitor/types"
 )
 
 type ReloadCmd struct {

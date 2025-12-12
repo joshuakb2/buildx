@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/buildx/build"
+	"github.com/joshuakb2/buildx/build"
 	"github.com/docker/cli/cli-plugins/metadata"
 	"github.com/google/go-dap"
 	"github.com/google/shlex"

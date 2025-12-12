@@ -3,7 +3,7 @@ package docker
 import (
 	"context"
 
-	"github.com/docker/buildx/driver"
+	"github.com/joshuakb2/buildx/driver"
 	dockerclient "github.com/docker/docker/client"
 	"github.com/pkg/errors"
 )

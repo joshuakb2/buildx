@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/docker/cli/cli/command"
-	"github.com/moby/buildkit/cmd/buildkitd/config"
+	"github.com/joshuakb2/buildkit/cmd/buildkitd/config"
 	"github.com/moby/sys/atomicwriter"
 	"github.com/pelletier/go-toml"
 	"github.com/pkg/errors"

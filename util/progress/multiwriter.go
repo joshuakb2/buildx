@@ -3,7 +3,7 @@ package progress
 import (
 	"strings"
 
-	"github.com/moby/buildkit/client"
+	"github.com/joshuakb2/buildkit/client"
 )
 
 func WithPrefix(w Writer, pfx string, force bool) Writer {

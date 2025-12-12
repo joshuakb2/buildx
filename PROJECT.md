@@ -38,7 +38,7 @@
 **Docker Buildx** is a Docker CLI plugin designed to extend build capabilities using BuildKit. It provides advanced features for building container images, supporting multiple builder instances, multi-node builds, and high-level build constructs. Buildx enhances the Docker build process, making it more efficient and flexible, and is compatible with both Docker and Kubernetes environments. Key features include:
 
 - **Familiar user experience:** Buildx offers a user experience similar to legacy docker build, ensuring a smooth transition from legacy commands
-- **Full BuildKit capabilities:** Leverage the full feature set of [`moby/buildkit`](https://github.com/moby/buildkit) when using the container driver
+- **Full BuildKit capabilities:** Leverage the full feature set of [`moby/buildkit`](https://github.com/joshuakb2/buildkit) when using the container driver
 - **Multiple builder instances:** Supports the use of multiple builder instances, allowing concurrent builds and effective management and monitoring of these builders.
 - **Multi-node builds:** Use multiple nodes to build cross-platform images
 - **Compose integration:** Build complex, multi-services files as defined in compose

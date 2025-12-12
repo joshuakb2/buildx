@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/docker/buildx/util/progress"
+	"github.com/joshuakb2/buildx/util/progress"
 	"github.com/docker/cli/cli/command"
 	dockerclient "github.com/docker/docker/client"
 )

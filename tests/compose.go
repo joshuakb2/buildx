@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/containerd/continuity/fs/fstest"
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/util/contentutil"
-	"github.com/moby/buildkit/util/testutil"
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildkit/identity"
+	"github.com/joshuakb2/buildkit/util/contentutil"
+	"github.com/joshuakb2/buildkit/util/testutil"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 )

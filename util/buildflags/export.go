@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/containerd/platforms"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/exporter/containerimage/exptypes"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/exporter/containerimage/exptypes"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"github.com/tonistiigi/go-csvvalue"

@@ -1442,7 +1442,7 @@ target "webapp-dev" {
 
 [add-host]: https://docs.docker.com/reference/cli/docker/buildx/build/#add-host
 [attestations]: https://docs.docker.com/build/attestations/
-[bake_stdlib]: https://github.com/docker/buildx/blob/master/docs/bake-stdlib.md
+[bake_stdlib]: https://github.com/joshuakb2/buildx/blob/master/docs/bake-stdlib.md
 [build-arg]: https://docs.docker.com/reference/cli/docker/image/build/#build-arg
 [build-context]: https://docs.docker.com/reference/cli/docker/buildx/build/#build-context
 [cache-backends]: https://docs.docker.com/build/cache/backends/

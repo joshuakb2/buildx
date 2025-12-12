@@ -7,11 +7,11 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/docker/buildx/build"
-	"github.com/docker/buildx/util/buildflags"
-	"github.com/docker/buildx/util/osutil"
-	"github.com/moby/buildkit/client/llb"
-	"github.com/moby/buildkit/util/entitlements"
+	"github.com/joshuakb2/buildx/build"
+	"github.com/joshuakb2/buildx/util/buildflags"
+	"github.com/joshuakb2/buildx/util/osutil"
+	"github.com/joshuakb2/buildkit/client/llb"
+	"github.com/joshuakb2/buildkit/util/entitlements"
 	"github.com/stretchr/testify/require"
 )
 

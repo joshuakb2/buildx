@@ -5,12 +5,12 @@ import (
 	"io"
 	"os"
 
-	"github.com/docker/buildx/util/cobrautil/completion"
-	"github.com/docker/buildx/util/progress"
+	"github.com/joshuakb2/buildx/util/cobrautil/completion"
+	"github.com/joshuakb2/buildx/util/progress"
 	"github.com/docker/cli/cli/command"
-	controlapi "github.com/moby/buildkit/api/services/control"
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/util/progress/progressui"
+	controlapi "github.com/joshuakb2/buildkit/api/services/control"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/util/progress/progressui"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

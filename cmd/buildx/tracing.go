@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/moby/buildkit/util/tracing/detect"
+	"github.com/joshuakb2/buildkit/util/tracing/detect"
 	"go.opentelemetry.io/otel"
 
-	_ "github.com/moby/buildkit/util/tracing/env"
+	_ "github.com/joshuakb2/buildkit/util/tracing/env"
 )
 
 func init() {

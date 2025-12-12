@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/moby/buildkit/identity"
-	"github.com/moby/buildkit/util/testutil/dockerd"
-	"github.com/moby/buildkit/util/testutil/integration"
-	bkworkers "github.com/moby/buildkit/util/testutil/workers"
+	"github.com/joshuakb2/buildkit/identity"
+	"github.com/joshuakb2/buildkit/util/testutil/dockerd"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
+	bkworkers "github.com/joshuakb2/buildkit/util/testutil/workers"
 	"github.com/pkg/errors"
 )
 

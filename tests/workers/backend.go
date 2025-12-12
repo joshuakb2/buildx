@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 )
 
 type backend struct {

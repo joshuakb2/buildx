@@ -3,7 +3,7 @@ package workers
 import (
 	"testing"
 
-	"github.com/moby/buildkit/util/testutil/integration"
+	"github.com/joshuakb2/buildkit/util/testutil/integration"
 )
 
 var features = map[string]struct{}{}

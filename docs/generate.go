@@ -9,8 +9,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/docker/buildx/bake/hclparser"
-	"github.com/docker/buildx/commands"
+	"github.com/joshuakb2/buildx/bake/hclparser"
+	"github.com/joshuakb2/buildx/commands"
 	clidocstool "github.com/docker/cli-docs-tool"
 	"github.com/docker/cli/cli/command"
 	"github.com/pkg/errors"
@@ -19,10 +19,10 @@ import (
 
 	// import drivers otherwise factories are empty
 	// for --driver output flag usage
-	_ "github.com/docker/buildx/driver/docker"
-	_ "github.com/docker/buildx/driver/docker-container"
-	_ "github.com/docker/buildx/driver/kubernetes"
-	_ "github.com/docker/buildx/driver/remote"
+	_ "github.com/joshuakb2/buildx/driver/docker"
+	_ "github.com/joshuakb2/buildx/driver/docker-container"
+	_ "github.com/joshuakb2/buildx/driver/kubernetes"
+	_ "github.com/joshuakb2/buildx/driver/remote"
 )
 
 const defaultSourcePath = "docs/reference/"
@@ -39,7 +39,7 @@ type options struct {
 // fixUpExperimentalCLI trims the " (EXPERIMENTAL)" suffix from the CLI output,
 // as docs.docker.com already displays "experimental (CLI)",
 //
-// https://github.com/docker/buildx/pull/2188#issuecomment-1889487022
+// https://github.com/joshuakb2/buildx/pull/2188#issuecomment-1889487022
 func fixUpExperimentalCLI(cmd *cobra.Command) {
 	const (
 		annotationExperimentalCLI = "experimentalCLI"

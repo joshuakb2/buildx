@@ -3,8 +3,8 @@ package progress
 import (
 	"time"
 
-	"github.com/moby/buildkit/client"
-	"github.com/moby/buildkit/identity"
+	"github.com/joshuakb2/buildkit/client"
+	"github.com/joshuakb2/buildkit/identity"
 	"github.com/opencontainers/go-digest"
 )
 
